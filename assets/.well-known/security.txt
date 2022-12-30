@@ -1,0 +1,7 @@
+Acknowledgments: https://ophuscado.com/contributors
+Canonical: https://ophuscado.com/.well-known/security.txt
+Contact: mailto:security@ophuscado.com
+Expires: Sat, 31 Dec 2024 23:59 +0000
+Encryption: https://ophuscado.com/files/ophuscado-ecdsa.asc
+Preferred-Languages: en, es, zh
+Policy: https://ophuscado.com/security

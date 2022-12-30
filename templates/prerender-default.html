@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  {% block head %}
+  <meta property="article:published_time" content="{{ created }}" />
+  <meta property="article:modified_time" content="{{ modified }}" />
+  <meta name="description" content="{{ description }}" />
+  <link rel="canonical" href="https://ophuscado.com/{{ slug }}" />
+  <title>{{ title }}</title>
+  <link rel="stylesheet" href="/assets/prerender-default.css" />
+  <style>
+    :root {
+      --background-body: #002200;
+      --background: #002200;
+      --background-alt: #002200;
+      --selection: #003300;
+      --text-main: #00ff00;
+      --text-bright: #00ff00;
+      --text-muted: #00ff00;
+      --links: #00ff00;
+      --focus: #003300;
+      --border: #003300;
+      --code: #002200;
+      --animation-duration: 0.2s;
+      --button-hover: #002200;
+      --scrollbar-thumb: #002200;
+      --scrollbar-thumb-hover: #003300;
+      --form-placeholder: #00ff00;
+      --form-text: #00ff00;
+      --variable: #00ff00;
+      --highlight: #003300;
+      --select-arrow: #00ff00;
+    }
+  </style>
+  {% endblock %}
+  <script>
+    console.log(
+      `%c
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+.                                                                               .
+.   =========================================================================   .
+.    01001100 01101001 01110110 01100101 01110010 01100001 01100100 01101111    .
+.                                                                               .
+.   @@@       @@@  @@@  @@@  @@@@@@@@  @@@@@@@    @@@@@@   @@@@@@@    @@@@@@    .
+.   @@@       @@@  @@@  @@@  @@@@@@@@  @@@@@@@@  @@@@@@@@  @@@@@@@@  @@@@@@@@   .
+.   @@!       @@!  @@!  @@@  @@!       @@!  @@@  @@!  @@@  @@!  @@@  @@!  @@@   .
+.   !@!       !@!  !@!  @!@  !@!       !@!  @!@  !@!  @!@  !@!  @!@  !@!  @!@   .
+.   @!!       !!@  @!@  !@!  @!!!:!    @!@!!@!   @!@!@!@!  @!@  !@!  @!@  !@!   .
+.   !!!       !!!  !@!  !!!  !!!!!:    !!@!@!    !!!@!!!!  !@!  !!!  !@!  !!!   .
+.   !!:       !!:  :!:  !!:  !!:       !!: :!!   !!:  !!!  !!:  !!!  !!:  !!!   .
+.    :!:      :!:   ::!!:!   :!:       :!:  !:!  :!:  !:!  :!:  !:!  :!:  !:!   .
+.    :: ::::   ::    ::::     :: ::::  ::   :::  ::   :::   :::: ::  ::::: ::   .
+.   : :: : :  :       :      : :: ::    :   : :   :   : :  :: :  :    : :  :    .
+.                                                                               .
+.    01001100 01101001 01110110 01100101 01110010 01100001 01100100 01101111    .
+.   =========================================================================   .
+.                                                                               .
+.                             security@ophuscado.com                             .
+.                                                                               .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .`,
+      "color:#06b6d4; background:#111827; font-family: monospace",
+    );
+  </script>
+
+  </script>
+
+</head>
+
+<body>
+  <a href="/"><img src="/assets/img/branding/ophuscado-logo-white-horizontal.png" alt="Ophuscado" width="128"></a>
+  <nav style="display: flex; justify-content: space-between;">
+    <div>
+      <a href="/">Home</a>
+    </div>
+    <div>
+      <a href="/start-free-trial">Start free trial</a> -->
+    </div>
+  </nav>
+
+  {% block main %}
+  {{ content }}
+
+  <!-- if created or modified -->
+  {% if created or modified %}
+  <hr>
+  <details>
+    <summary>Metadata</summary>
+    <p>
+    <pre>Metadata:
+  Author: {{ author or "Ophuscado" }}.
+  Categories: {{ categories or "Pages" }}.
+  Languages: {{ languages or "en" }}.
+  Status: {{ status or "Published" }}.
+  UUID: {{ uuid or "00000000" }}.
+  ---
+  Cached: {{ cached or modified }}.
+  Created: {{ created }}.
+  Modified: {{ modified }}.</pre>
+    </p>
+  </details>
+  {% endif %}
+  {% endblock %}
+  <footer style="display: flex; justify-content: space-around">
+    <div>
+      <h4>Service</h4>
+      <ul>
+        <li><a href="/about">About Ophuscado</a></li>
+        <li><a href="/donate">Donate</a></li>
+        <!-- <li><a href="/features">Features</a></li> -->
+        <li><a href="/pricing">Pricing</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Quick Links</h4>
+      <ul>
+        <!-- <li><a href="/blog">Blog</a></li> -->
+        <!-- <li><a href="/source-code">Source Code</a></li> -->
+        <!-- <li><a href="/service-status">Service Status</a></li> -->
+        <li><a href="/tor-network">Tor Network</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Solutions</h4>
+      <ul>
+        <li><a href="/abuse">Abuse</a></li>
+        <li><a href="/branding">Branding</a></li>
+        <!-- <li><a href="/help-centre">Help Centre</a></li> -->
+        <li><a href="/security">Security</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Legal</h4>
+      <ul>
+        <li><a href="/gdpr-privacy-policy">GDPR Privacy Policy</a></li>
+        <li><a href="/privacy-policy">Privacy Policy</a></li>
+        <li><a href="/terms-of-service">Terms of Service</a></li>
+        <li><a href="/transparency-report">Transparency Report</a></li>
+      </ul>
+    </div>
+  </footer>
+  <footer style="display: flex; justify-content: space-between; padding: 0 1em;">
+    <pre>Ophuscado LLC
+BALEL - #G33
+10 rue du Prince
+1204 Genève
+Switzerland</pre>
+    <pre style="text-align: right;">Copyright © 2020-2023, Ophuscado LLC.
+All rights reserved.
+
+<a href="tel:+41228860133">+41 22 886 01 33</a>
+<a href="mailto:postbox@ophuscado.com">postbox@ophuscado.com</a></pre>
+  </footer>
+</body>
+
+</html>

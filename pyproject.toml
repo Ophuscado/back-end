@@ -1,0 +1,46 @@
+[build-system]
+requires      = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ophuscado_llc"
+version = "1.0.0"
+description = ""
+readme = "README.md"
+authors = [{ name = "Ophuscado", email = "postbox@ophuscado.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: BSD License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+keywords = ["framework", "desktop", "web", "api", "fastapi", "flutter", "flet"]
+dependencies = ["fastapi", "flet", "jinja2", "lxml", "markdown", "passlib", "pymongo", "python-dotenv", "python-jwt", "uvicorn", "wheel"]
+requires-python = ">=3.9"
+
+[project.optional-dependencies]
+dev = ["black", "ipdb", "ipython", "isort", "pylint", "twine"]
+
+[project.urls]
+Author = "https://ophuscado.com/?pypi=ophuscado-llc"
+Homepage = "https://github.com/Ophuscado-LLC/app"
+
+[tool.bumpver]
+current_version = "2022.1001-alpha"
+version_pattern = "YYYY.BUILD[-TAG]"
+commit_message = "bump version {old_version} -> {new_version}"
+commit = true
+tag = true
+push = true
+
+[tool.bumpver.file_patterns]
+"pyproject.toml" = [
+    'current_version = "{version}"',
+]
+"README.md" = [
+    "{version}",
+    "{pep440_version}",
+]
