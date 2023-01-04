@@ -14,6 +14,6 @@
 - [Instagram Scheduler](https://github.com/Ophuscado/instagram-scheduler)
 - [Player1 Development Toolkits](https://pypi.org/project/player1dev/)
 
-### VS Code
+### VSCode
 
 - [OhLED Themes (142-in-1)](https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes)

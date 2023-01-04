@@ -1,6 +1,6 @@
 ![Ophuscado trademark](/assets/branding/Ophuscado-Square.png)
 
-> Simplicity is the ultimate sophistication.
+> Perfection is always under construction.
 >
 > The Ophuscado LLC motto.
 
@@ -37,6 +37,6 @@ Our developments and projects brings solutions to people from all around the glo
 
 ## You may also be interested in...
 
-- [Learn more about our service and the technologies we deliver →](/features)
-- [Learn more about the Liverado brand →](/branding)
+- [Learn more about our IT services and solutions →](/features)
+- [Learn more about the Ophuscado brand →](/branding)
 - [Read the white paper →](/white-paper)
