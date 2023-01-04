@@ -2,7 +2,9 @@
 
 ## About
 
-Computer Science enthusiasts. We are a small team of developers, designers, and writers. We are passionate about building software that is easy to use and maintain. We are also passionate about building software that is secure and private.
+Computer Science enthusiasts. We are a dynamic team of developers, designers, writers, and visionaries that come together with a passion for building software that is easier to use, cheaper to maintain, and just works better. Ophuscado LLC is also holding the Liverado, HackedSystem, and Intraneto children projects, all of which are focused on delivering high-quality IT services and solutions to their users. We are also passionate about building software to empower individuals.
+
+We believe that everyone should have the right to privacy and security. Not only that, but we are on a mission to empower individuals to take control of their digital lives and protect their privacy and security. Our final goals are to extend existing technologies to make them more accessible and usable for everyone. Nothing we do could be possible without the hard work of each one of the human beings that lived before us, neither anything we do would be possible without the support of our users and contributors.
 
 ## Attributions
 
@@ -18,7 +20,7 @@ Please read [`CONTRIBUTIONS.md`](https://github.com/Ophuscado-LLC/app/blob/main/
 
 ## License
 
-Copyright (c) 2020-2023, Ophuscado LLC.
+Copyright (c) 1991-2023, Ophuscado LLC.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
