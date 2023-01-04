@@ -1,0 +1,22 @@
+:root {
+  --background-body: #002200;
+  --background: #002200;
+  --background-alt: #002200;
+  --selection: #003300;
+  --text-main: #00ff00;
+  --text-bright: #00ff00;
+  --text-muted: #00ff00;
+  --links: #00ff00;
+  --focus: #003300;
+  --border: #003300;
+  --code: #002200;
+  --animation-duration: 0.2s;
+  --button-hover: #002200;
+  --scrollbar-thumb: #002200;
+  --scrollbar-thumb-hover: #003300;
+  --form-placeholder: #00ff00;
+  --form-text: #00ff00;
+  --variable: #00ff00;
+  --highlight: #003300;
+  --select-arrow: #00ff00;
+}
